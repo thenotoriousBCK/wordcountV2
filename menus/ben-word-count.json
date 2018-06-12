@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle ben-word-count",
+        "command": "ben-word-count:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "ben-word-count",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "ben-word-count:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
