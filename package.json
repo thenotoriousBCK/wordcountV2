@@ -1,0 +1,18 @@
+{
+  "name": "thenotoriousBCK-word-count",
+  "main": "./lib/ben-word-count",
+  "version": "0.0.0",
+  "description": "counts words",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "ben-word-count:toggle"
+  },
+  "repository": "https://github.com/thenotoriousBCK/wordcountV2",
+  "license": "BCK",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
